@@ -1,0 +1,6 @@
+[user]
+	name = {{ git_user.name }}
+	email = {{ git_user.email }}
+	signingkey = {{ git_user.signinkey }}
+[commit]
+	gpgSign = true
